@@ -18,3 +18,12 @@ for i in file_list :
     open(local, 'wb').write(r.content)
     x += 1
     print(" finnish ")
+
+    
+# for i in temp :
+#     local = '/Users/ck-kuo/Desktop/'+ str(y) +'ans.pdf'
+#     print(local)
+#     r = requests.get(i['href'])
+#     open(local, 'wb').write(r.content)
+#     y += 1
+#     print(i['href'])
